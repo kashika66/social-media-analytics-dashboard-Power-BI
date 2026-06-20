@@ -47,7 +47,6 @@ Data cleaning & querying (SQL) · KPI design · DAX measures & forecasting ·
 Dashboard UX & filtering · Translating data into business recommendations
 
 ## 🖼️ Screenshots / Demo
-https://github.com/kashika66/social-media-analytics-dashboard-Power-BI/blob/main/instagram-analytics-dashboard.png
-
+instagram-analytics-dashboard.png
 ## 🔗 Project File
 https://github.com/kashika66/social-media-analytics-dashboard-Power-BI/blob/main/INSTA%20DA.pbix
