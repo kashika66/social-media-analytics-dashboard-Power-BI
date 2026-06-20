@@ -10,8 +10,7 @@ and 6-month growth forecasting.
 · **DAX** (custom KPI measures, forecasting logic)
 
 ## 📂 Data Source
-Simulated Instagram performance dataset, cleaned and structured using SQL before 
-being modeled in Power BI.
+[Instagram Analytics Dataset](https://www.kaggle.com/datasets/kundanbedmutha/instagram-analytics-dataset) (Kaggle) — 29,999 posts across 20 accounts (brand and creator), spanning Nov 2024–Nov 2025. Cleaned and queried using SQL before being modeled in Power BI.
 
 ## 📊 Features / Highlights
 - **KPI Dashboard** — Total Reach (188.2M), Engagement Rate (4.21%), Followers Gained (15M), 
