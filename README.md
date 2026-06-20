@@ -1,44 +1,54 @@
 # Instagram Social Media Analytics Dashboard (Power BI)
 
-## 📌 Overview
-This Power BI dashboard analyzes Instagram performance data — covering reach, engagement, 
-follower growth, and content strategy — to uncover what drives results and forecast 
-future growth trends.
+## 📌 Short Description
+An end-to-end Power BI project that transforms raw Instagram performance data into 
+actionable content strategy insights — including KPI tracking, engagement analysis, 
+and 6-month growth forecasting.
 
-## 🎯 Objective
-To track Instagram engagement and reach trends, identify which content types and posting 
-strategies perform best, and forecast follower growth over the next 6 months using historical data.
-
-## 🛠️ Tools Used
-- SQL (data extraction and cleaning)
-- Power BI (data modeling, DAX measures, visualization)
-
-## 📊 Dashboard Features
-- KPI cards for Total Reach, Avg Engagement Rate, Total Followers Gained, and % Viral Posts
-- Custom DAX measures for engagement rate and growth %
-- 6-month forecasting on reach and follower growth trend lines
-- Breakdown of traffic sources, media type performance, and post performance distribution
-- Slicers for filtering by Media Type, Content Type (brand/creator), and Date Range
-
-## 🖼️ Screenshots
-![Dashboard Overview](screenshots/instagram-analytics-dashboard.png)
+## 🛠️ Tech Stack
+**SQL** (data extraction & cleaning) · **Power BI** (data modeling & visualization) 
+· **DAX** (custom KPI measures, forecasting logic)
 
 ## 📂 Data Source
-Sample/simulated Instagram performance data, structured and queried using SQL before 
-building the Power BI model.
+Simulated Instagram performance dataset, cleaned and structured using SQL before 
+being modeled in Power BI.
 
-## 🔗 Live Dashboard / File
+## 📊 Features / Highlights
+- **KPI Dashboard** — Total Reach (188.2M), Engagement Rate (4.21%), Followers Gained (15M), 
+  Viral Post Rate (25%)
+- **CTA Effectiveness Analysis** — Quantified the impact of call-to-actions on reach
+- **Content Format Comparison** — Engagement benchmarking across Reels, Images, and Carousels
+- **Traffic Source Attribution** — Reach breakdown by Hashtags, External, and Reels Feed
+- **Performance Segmentation** — Posts classified into high/medium/low/viral tiers
+- **Predictive Forecasting** — 6-month forward projection on reach and follower growth using DAX
+- **Dynamic Filtering** — Interactive slicers for Media Type, Content Type, and Date Range
+
+> Example: Identified that Monday and Friday posts achieve the highest average reach (6.4K), 
+> directly informing optimal content scheduling.
+
+## ❓ Key Business Questions Solved
+- Which days drive the most reach, and how should posting be scheduled around that?
+- Are call-to-actions helping or hurting content performance?
+- Which content format delivers the best ROI on engagement?
+- How diversified is the account's traffic — and is there over-reliance on one channel?
+- What's the expected growth trajectory over the next 6 months?
+
+## 💼 Business Impact & Insights
+- **Found that posts without a CTA reached nearly 2x further** than posts with one (122M vs 66M) 
+  — a counterintuitive insight that could reshape content strategy.
+- **Benchmarked engagement across formats**, showing Reels and Images perform almost identically 
+  (4.23%) — meaning content quality outweighs format choice.
+- **Mapped traffic source dependency**, confirming a balanced acquisition mix across Hashtags, 
+  External, and Reels Feed (~16-17% each), reducing platform-algorithm risk.
+- **Forecasted stable growth** in reach and followers over 6 months, supporting a data-backed 
+  case for continuing the current content strategy.
+
+## 🎯 Skills Demonstrated
+Data cleaning & querying (SQL) · KPI design · DAX measures & forecasting · 
+Dashboard UX & filtering · Translating data into business recommendations
+
+## 🖼️ Screenshots / Demo
+![Dashboard Overview](screenshots/instagram-analytics-dashboard.png)
+
+## 🔗 Project File
 .pbix file available in this repository.
-
-## 💡 Key Insights
-- Posts without a call-to-action drove nearly double the reach of posts with one 
-  (122M vs 66M), suggesting CTAs may need to be tested or repositioned to avoid 
-  suppressing organic reach.
-- Reels and images performed almost identically in engagement rate (4.23% each), 
-  slightly ahead of carousels (4.18%) — indicating format alone isn't the main 
-  driver of engagement.
-- Traffic sources are fairly evenly split across Hashtags, External, and Reels Feed 
-  (each ~16-17% of reach), showing a diversified discovery mix rather than reliance 
-  on a single channel.
-- 25% of posts achieved viral status, and reach/follower growth are forecasted to 
-  remain stable over the next 6 months.
