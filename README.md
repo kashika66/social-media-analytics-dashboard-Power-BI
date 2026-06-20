@@ -50,4 +50,4 @@ Dashboard UX & filtering · Translating data into business recommendations
 https://github.com/kashika66/social-media-analytics-dashboard-Power-BI/blob/main/instagram-analytics-dashboard.png
 
 ## 🔗 Project File
-.pbix file available in this repository.
+https://github.com/kashika66/social-media-analytics-dashboard-Power-BI/blob/main/INSTA%20DA.pbix
